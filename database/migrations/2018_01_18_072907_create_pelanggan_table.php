@@ -18,7 +18,7 @@ class CreatePelangganTable extends Migration
             $table->increments('id');
             $table->string('Nm_Plg',40);
             $table->string('email',40)->unique();;
-            $table->string('Password',80);
+            $table->string('password',80);
              $table->string('Level',10);
             $table->rememberToken();
             $table->timestamps();

@@ -21,6 +21,7 @@ class Pegawai extends Migration
             $table->string('alamat',100);
             $table->string('Email',40);
             $table->string('Password',80);
+            $table->string('Level',10);
             $table->timestamps();
         });
     }
