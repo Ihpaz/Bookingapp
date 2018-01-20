@@ -1,0 +1,25 @@
+#app{
+	background-image: url("../image/bg.jpg"); 
+	min-height: 680px;
+	
+}
+#dt-login{
+	margin-right: 350px;
+	margin-left: 350px;
+	margin-top: 100px;
+}
+#dt-register{
+	margin-top: 100px;
+}
+.navmenu{
+	background-color: #f95a04;
+	
+}
+.panel-default>.panel-heading {
+    color: white;
+    background-color: #f95a04;
+    border-color: #d3e0e9;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a {
+    color: white;
+}
